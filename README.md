@@ -10,7 +10,7 @@ wget https://raw.githubusercontent.com/devrimgunduz/pagila/master/pagila-schema.
 ````
 # Create the database and import
 ```
-createdb pagila
+create database pagila
 psql -U your_username -d pagila -f pagila-schema.sql
 psql -U your_username -d pagila -f pagila-data.sql
 ````
